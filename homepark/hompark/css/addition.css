@@ -1,0 +1,27 @@
+/* Masaüstü cihazlarda (desktop) gizlət */
+@media screen and (min-width: 769px) {
+  .only-mobile {
+    display: none;
+  }
+}
+
+/* Mobil cihazlarda (və ya 768px-dən kiçik ekranlarda) görünəcək */
+@media screen and (max-width: 768px) {
+  .only-mobile {
+    display: block; /* Və ya flex, grid - ehtiyaca görə */
+  }
+}
+
+/* Masaüstü cihazlarda (desktop) gizlət */
+@media screen and (min-width: 769px) {
+  .only-mobilea {
+    display: block;
+  }
+}
+
+/* Mobil cihazlarda (və ya 768px-dən kiçik ekranlarda) görünəcək */
+@media screen and (max-width: 768px) {
+  .only-mobilea {
+    display: none; /* Və ya flex, grid - ehtiyaca görə */
+  }
+}
